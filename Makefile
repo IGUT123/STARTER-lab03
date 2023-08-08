@@ -44,7 +44,7 @@ initBoxTest: initBoxTest.o $(COMMON_OBJECTS)
 pointToStringTest: pointToStringTest.o $(COMMON_OBJECTS)
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) $^ -o $@
 
-BoxToStringTest: boxToStringTest.o $(COMMON_OBJECTS)
+boxToStringTest: boxToStringTest.o $(COMMON_OBJECTS)
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) $^ -o $@
 
 clean:
